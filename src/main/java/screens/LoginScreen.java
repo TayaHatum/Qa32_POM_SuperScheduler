@@ -41,8 +41,36 @@ public class LoginScreen extends BaseScreen{
     }
 
 
-//    public ????? complexLogin(Auth auth){
-//
-//        return ???
-//    }
+    public HomeScreen complexLogin(Auth auth){
+
+        should(emailEditText,15);
+        type(emailEditText,auth.getEmail());
+        type(passwordEditText, auth.getPassword());
+        driver.hideKeyboard();
+        loginButton.click();
+
+        return new HomeScreen(driver);
+    }
+    public WizardScreen complexRegistration(Auth auth){
+
+        should(emailEditText,15);
+        type(emailEditText,auth.getEmail());
+        type(passwordEditText, auth.getPassword());
+        driver.hideKeyboard();
+        loginButton.click();
+
+        return new WizardScreen(driver);
+    }
+
+
+    public WizardScreen complex(Auth auth){
+
+        should(emailEditText,15);
+        type(emailEditText,auth.getEmail());
+        type(passwordEditText, auth.getPassword());
+        driver.hideKeyboard();
+        loginButton.click();
+
+        return new WizardScreen(driver);
+    }
 }
