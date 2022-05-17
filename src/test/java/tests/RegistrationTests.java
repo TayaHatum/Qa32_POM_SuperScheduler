@@ -22,8 +22,8 @@ public class RegistrationTests extends AppiumConfiguration {
    public void loginRegistrationSuccess(){
 
         new LoginScreen(driver)
-                .complex(Auth.builder().email("noa05@gmail.com").password("Nnoa12345$").build())
-                .skipIfWizard()
+                .complex(Auth.builder().email("noa08@gmail.com").password("Nnoa12345$").build())
+                .skipIfWizard2()
                 .checkFabButtonPresent()
                .openMenu()
                .logout();

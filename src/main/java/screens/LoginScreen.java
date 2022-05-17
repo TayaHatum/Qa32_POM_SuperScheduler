@@ -4,6 +4,7 @@ import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.MobileElement;
 import models.Auth;
 import org.openqa.selenium.support.FindBy;
+import org.testng.Assert;
 
 public class LoginScreen extends BaseScreen{
 
@@ -18,8 +19,26 @@ public class LoginScreen extends BaseScreen{
 
     @FindBy (xpath = "//*[@resource-id='com.example.svetlana.scheduler:id/login_btn']")
     MobileElement loginButton;
+    @FindBy (xpath = "//*[@resource-id='android:id/message']")
+    MobileElement errorMessage;
+    @FindBy (xpath = "//*[@resource-id='android:id/button1']")
+    MobileElement okBtn;
 
 
+    public LoginScreen checkErrorMessage(String text){
+        shouldHave(errorMessage,15,text);
+        Assert.assertEquals(errorMessage.getText(),text);
+        return this;
+    }
+
+    public boolean isLoginButtonPresent(){
+        return loginButton.isDisplayed();
+    }
+
+    public LoginScreen confirmErrorMessage(){
+        okBtn.click();
+        return this;
+    }
     public LoginScreen fillEmail(String  email){
        // pause(6000);
         should(emailEditText,15);
@@ -72,5 +91,20 @@ public class LoginScreen extends BaseScreen{
         loginButton.click();
 
         return new WizardScreen(driver);
+    }
+    public LoginScreen submitLoginNegative(){
+        driver.hideKeyboard();
+        loginButton.click();
+
+        return this;
+    }
+    public LoginScreen complexLoginWithErrorExeption(Auth auth){
+        should(emailEditText,15);
+        type(emailEditText, auth.getEmail());
+        type(passwordEditText, auth.getPassword());
+        driver.hideKeyboard();
+        loginButton.click();
+
+        return this;
     }
 }
