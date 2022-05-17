@@ -1,0 +1,2 @@
+20:57:20.570 [Test worker] INFO  configuration.AppiumConfiguration - "deviceName","Nex"
+20:57:20.580 [Test worker] INFO  configuration.AppiumConfiguration - "platformName", "Android"

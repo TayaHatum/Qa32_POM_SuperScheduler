@@ -1,0 +1,3 @@
+21:01:47.286 [Test worker] INFO  configuration.AppiumConfiguration - "deviceName","Nex"
+21:01:47.366 [Test worker] INFO  configuration.AppiumConfiguration - "platformName", "Android"
+21:02:18.366 [Test worker] INFO  configuration.AppiumConfiguration - From Login Test: test start with data:

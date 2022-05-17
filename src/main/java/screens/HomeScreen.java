@@ -17,8 +17,18 @@ public class HomeScreen extends BaseScreen{
     MobileElement burgerMenu;
     @FindBy (xpath = "//*[@resource-id='com.example.svetlana.scheduler:id/nav_fr_logout']")
     MobileElement logout;
+    @FindBy (xpath = "//*[@resource-id='com.example.svetlana.scheduler:id/fab_add_event']")
+    MobileElement fabAddEvent;
+
     //com.example.svetlana.scheduler:id/nav_fr_logout_img
     //com.example.svetlana.scheduler:id/nav_fr_logout
+
+    public EditCreateEventScreen initCreationEvent(){
+        should(fabAdd,10);
+        fabAdd.click();
+        fabAddEvent.click();
+        return new EditCreateEventScreen(driver);
+    }
 
     public boolean isFabPlusPresent(){
         should(fabAdd,20);

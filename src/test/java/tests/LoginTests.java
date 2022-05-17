@@ -46,6 +46,8 @@ public class LoginTests extends AppiumConfiguration {
     }
     @Test
     public void loginSuccessHomeWork2(){
+        logger.info("From Login Test: test start with data:");
+        
       new LoginScreen(driver).
                 complexLogin(Auth.builder().email("noa@gmail.com").password("Nnoa12345$").build())
               .checkFabButtonPresent()

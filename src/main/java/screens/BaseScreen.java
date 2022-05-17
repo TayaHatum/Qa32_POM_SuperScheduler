@@ -22,6 +22,7 @@ public class BaseScreen {
         }
     }
 
+
     public void pause(int millis){
         try {
             Thread.sleep(millis);
