@@ -9,6 +9,8 @@ import org.openqa.selenium.Rectangle;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
 
+import java.time.LocalDate;
+import java.time.format.DateTimeFormatter;
 import java.util.List;
 
 public class EditCreateEventScreen extends BaseScreen{
@@ -35,6 +37,42 @@ public class EditCreateEventScreen extends BaseScreen{
     @FindBy(xpath = "//*[@resource-id='com.example.svetlana.scheduler:id/row_month_txt']")
     List<MobileElement> months;
 
+
+    public EditCreateEventScreen selectData(String date){ //29/05/2022
+
+        /// //29/05/2022  ---split[0] ="29"   split[0] ="O5"
+
+        // days.get(0).getText() = "24"
+        // months.get(0).getText() = "MAY"
+
+        LocalDate inputDate = LocalDate.parse(date, DateTimeFormatter.ofPattern("dd/MM/yyyy"));  //29/05/2022
+        LocalDate current = getLocalDate(days.get(0).getText(),months.get(0).getText());
+
+        while (!inputDate.equals(current)){  //29/05/2022 =29/05/2022
+            actionData();
+            pause(1000);
+            current = getLocalDate(days.get(0).getText(),months.get(0).getText());
+        }
+
+        return this;
+    }
+
+    private LocalDate getLocalDate(String day, String month) { //   24/MAY/2022 --- m
+        logger.info("To know that day --->" +days.get(0).getText());  //---> 24
+        logger.info("To know that month --->" +months.get(0).getText());  // --> MAY
+        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("d/MMMM/yyyy");
+
+        //ofPattern("d/MMMM/yyyy"); MMMM - "May" ,"June" ---- "MAY"!="May"
+        // month --- > MAY  ---> May
+
+        month = month.toLowerCase(); //-->may
+        month =month.substring(0,1).toUpperCase()+ month.substring(1); // M+ay
+
+
+        String m = day+"/"+month+"/"+"2022";  // ----> "24/MAY/2022"
+        logger.info("After substring -->"+m);
+        return LocalDate.parse(m,formatter);
+    }
 
     public EditCreateEventScreen actionData(){
         pause(3000);

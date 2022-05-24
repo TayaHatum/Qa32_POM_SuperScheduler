@@ -30,4 +30,18 @@ public class EventCreateTestsWithData extends AppiumConfiguration {
                 .isFabPlusPresent();
 
     }
+
+    @Test
+    public void addNewEventWithData(){
+        new HomeScreen(driver)
+                .initCreationEvent()
+                .selectData("28/05/2022")
+                .createNewEvent(Event.builder()
+                        .title("TitleNew")
+                        .type("NewType")
+                        .breaks(3)
+                        .wage(80).build())
+                .isFabPlusPresent();
+
+    }
 }
