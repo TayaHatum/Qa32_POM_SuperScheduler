@@ -2,6 +2,7 @@ package configuration;
 
 import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.MobileElement;
+import io.appium.java_client.events.EventFiringWebDriverFactory;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -34,6 +35,7 @@ public class AppiumConfiguration {
         capabilities.setCapability("automationName","Appium");
 
         driver=new AppiumDriver<MobileElement>(new URL("http://127.0.0.1:4723/wd/hub"),capabilities);
+        driver= EventFiringWebDriverFactory.getEventFiringWebDriver(driver,new MyListener());
 
 
 

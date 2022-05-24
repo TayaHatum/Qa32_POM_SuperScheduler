@@ -1,0 +1,89 @@
+09:38:19.526 [Test worker] INFO  configuration.AppiumConfiguration - "deviceName","Nex"
+09:38:19.564 [Test worker] INFO  configuration.AppiumConfiguration - "platformName", "Android"
+09:38:49.270 [Test worker] INFO  configuration.AppiumConfiguration - From Login Test: test start with data:   Auth(email=noa@gmail.com, password=Nnoa12345$)
+09:38:49.772 [Test worker] INFO  configuration.MyListener - Before find by --> By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/log_email_input']
+09:38:50.385 [Test worker] INFO  configuration.MyListener - After find by -->By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/log_email_input']
+09:38:50.386 [Test worker] INFO  configuration.MyListener - You gave a problem --->org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MacBook-Pro-Taya.local', ip: 'fe80:0:0:0:189a:bacd:aeb0:d713%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_151'
+Driver info: io.appium.java_client.AppiumDriver
+Capabilities {appActivity: .presentation.splashScreen...., appPackage: com.example.svetlana.scheduler, automationName: Appium, databaseEnabled: false, desired: {appActivity: .presentation.splashScreen...., appPackage: com.example.svetlana.scheduler, automationName: Appium, deviceName: Nex, platformName: android, platformVersion: 8.0}, deviceApiLevel: 26, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenDensity: 480, deviceScreenSize: 1080x1920, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 3, platform: LINUX, platformName: Android, platformVersion: 8.0.0, statBarHeight: 72, takesScreenshot: true, viewportRect: {height: 1704, left: 0, top: 72, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 2f70804b-aca9-41a8-8ad5-3cfc2adbc200
+*** Element info: {Using=xpath, value=//*[@resource-id='com.example.svetlana.scheduler:id/log_email_input']}
+09:38:52.041 [Test worker] INFO  configuration.MyListener - Screen with error by link --->src/test/screenshots/screen-2332.png
+09:38:52.602 [Test worker] INFO  configuration.MyListener - Before find by --> By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/log_email_input']
+09:38:53.103 [Test worker] INFO  configuration.MyListener - After find by -->By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/log_email_input']
+09:38:53.708 [Test worker] INFO  configuration.MyListener - Before find by --> By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/log_email_input']
+09:38:54.255 [Test worker] INFO  configuration.MyListener - After find by -->By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/log_email_input']
+09:38:56.060 [Test worker] INFO  configuration.MyListener - Before find by --> By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/log_email_input']
+09:38:56.655 [Test worker] INFO  configuration.MyListener - After find by -->By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/log_email_input']
+09:38:57.160 [Test worker] INFO  configuration.MyListener - Before find by --> By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/log_email_input']
+09:38:57.861 [Test worker] INFO  configuration.MyListener - After find by -->By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/log_email_input']
+09:38:59.061 [Test worker] INFO  configuration.MyListener - Before find by --> By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/log_password_input']
+09:38:59.609 [Test worker] INFO  configuration.MyListener - After find by -->By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/log_password_input']
+09:39:00.362 [Test worker] INFO  configuration.MyListener - Before find by --> By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/log_password_input']
+09:39:01.602 [Test worker] INFO  configuration.MyListener - After find by -->By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/log_password_input']
+09:39:02.212 [Test worker] INFO  configuration.MyListener - Before find by --> By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/log_password_input']
+09:39:02.753 [Test worker] INFO  configuration.MyListener - After find by -->By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/log_password_input']
+09:39:04.456 [Test worker] INFO  configuration.MyListener - Before find by --> By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/login_btn']
+09:39:04.958 [Test worker] INFO  configuration.MyListener - After find by -->By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/login_btn']
+09:39:06.101 [Test worker] INFO  configuration.MyListener - Before find by --> By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/fab_main']
+09:39:08.603 [Test worker] INFO  configuration.MyListener - After find by -->By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/fab_main']
+09:39:08.604 [Test worker] INFO  configuration.MyListener - You gave a problem --->org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MacBook-Pro-Taya.local', ip: 'fe80:0:0:0:189a:bacd:aeb0:d713%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_151'
+Driver info: io.appium.java_client.AppiumDriver
+Capabilities {appActivity: .presentation.splashScreen...., appPackage: com.example.svetlana.scheduler, automationName: Appium, databaseEnabled: false, desired: {appActivity: .presentation.splashScreen...., appPackage: com.example.svetlana.scheduler, automationName: Appium, deviceName: Nex, platformName: android, platformVersion: 8.0}, deviceApiLevel: 26, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenDensity: 480, deviceScreenSize: 1080x1920, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 3, platform: LINUX, platformName: Android, platformVersion: 8.0.0, statBarHeight: 72, takesScreenshot: true, viewportRect: {height: 1704, left: 0, top: 72, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 2f70804b-aca9-41a8-8ad5-3cfc2adbc200
+*** Element info: {Using=xpath, value=//*[@resource-id='com.example.svetlana.scheduler:id/fab_main']}
+09:39:14.864 [Test worker] INFO  configuration.MyListener - Screen with error by link --->src/test/screenshots/screen-2354.png
+09:39:15.407 [Test worker] INFO  configuration.MyListener - Before find by --> By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/fab_main']
+09:39:20.114 [Test worker] INFO  configuration.MyListener - After find by -->By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/fab_main']
+09:39:20.501 [Test worker] INFO  configuration.MyListener - Before find by --> By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/fab_main']
+09:39:23.714 [Test worker] INFO  configuration.MyListener - After find by -->By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/fab_main']
+09:39:24.163 [Test worker] INFO  configuration.MyListener - Before find by --> By.xpath: //android.widget.ImageButton[@content-desc='Open']
+09:39:27.305 [Test worker] INFO  configuration.MyListener - After find by -->By.xpath: //android.widget.ImageButton[@content-desc='Open']
+09:39:27.910 [Test worker] INFO  configuration.MyListener - Before find by --> By.xpath: //android.widget.ImageButton[@content-desc='Open']
+09:39:31.903 [Test worker] INFO  configuration.MyListener - After find by -->By.xpath: //android.widget.ImageButton[@content-desc='Open']
+09:39:32.158 [Test worker] INFO  configuration.MyListener - Before find by --> By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/nav_fr_logout']
+09:39:35.651 [Test worker] INFO  configuration.MyListener - After find by -->By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/nav_fr_logout']
+09:39:35.821 [Test worker] INFO  configuration.AppiumConfiguration - From Login Test: test start with data:   Auth(email=wick@gmail.com, password=Ww12345$)
+09:39:36.108 [Test worker] INFO  configuration.MyListener - Before find by --> By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/log_email_input']
+09:39:37.753 [Test worker] INFO  configuration.MyListener - After find by -->By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/log_email_input']
+09:39:37.906 [Test worker] INFO  configuration.MyListener - Before find by --> By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/log_email_input']
+09:39:38.055 [Test worker] INFO  configuration.MyListener - After find by -->By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/log_email_input']
+09:39:38.663 [Test worker] INFO  configuration.MyListener - Before find by --> By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/log_email_input']
+09:39:40.010 [Test worker] INFO  configuration.MyListener - After find by -->By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/log_email_input']
+09:39:40.457 [Test worker] INFO  configuration.MyListener - Before find by --> By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/log_email_input']
+09:39:41.005 [Test worker] INFO  configuration.MyListener - After find by -->By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/log_email_input']
+09:39:42.062 [Test worker] INFO  configuration.MyListener - Before find by --> By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/log_password_input']
+09:39:42.552 [Test worker] INFO  configuration.MyListener - After find by -->By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/log_password_input']
+09:39:43.099 [Test worker] INFO  configuration.MyListener - Before find by --> By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/log_password_input']
+09:39:44.111 [Test worker] INFO  configuration.MyListener - After find by -->By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/log_password_input']
+09:39:44.553 [Test worker] INFO  configuration.MyListener - Before find by --> By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/log_password_input']
+09:39:44.957 [Test worker] INFO  configuration.MyListener - After find by -->By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/log_password_input']
+09:39:47.307 [Test worker] INFO  configuration.MyListener - Before find by --> By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/login_btn']
+09:39:47.603 [Test worker] INFO  configuration.MyListener - After find by -->By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/login_btn']
+09:39:48.501 [Test worker] INFO  configuration.MyListener - Before find by --> By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/fab_main']
+09:39:50.564 [Test worker] INFO  configuration.MyListener - After find by -->By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/fab_main']
+09:39:50.566 [Test worker] INFO  configuration.MyListener - You gave a problem --->org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MacBook-Pro-Taya.local', ip: 'fe80:0:0:0:189a:bacd:aeb0:d713%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_151'
+Driver info: io.appium.java_client.AppiumDriver
+Capabilities {appActivity: .presentation.splashScreen...., appPackage: com.example.svetlana.scheduler, automationName: Appium, databaseEnabled: false, desired: {appActivity: .presentation.splashScreen...., appPackage: com.example.svetlana.scheduler, automationName: Appium, deviceName: Nex, platformName: android, platformVersion: 8.0}, deviceApiLevel: 26, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenDensity: 480, deviceScreenSize: 1080x1920, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 3, platform: LINUX, platformName: Android, platformVersion: 8.0.0, statBarHeight: 72, takesScreenshot: true, viewportRect: {height: 1704, left: 0, top: 72, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 2f70804b-aca9-41a8-8ad5-3cfc2adbc200
+*** Element info: {Using=xpath, value=//*[@resource-id='com.example.svetlana.scheduler:id/fab_main']}
+09:39:54.039 [Test worker] INFO  configuration.MyListener - Screen with error by link --->src/test/screenshots/screen-2394.png
+09:39:54.553 [Test worker] INFO  configuration.MyListener - Before find by --> By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/fab_main']
+09:39:56.962 [Test worker] INFO  configuration.MyListener - After find by -->By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/fab_main']
+09:39:57.103 [Test worker] INFO  configuration.MyListener - Before find by --> By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/fab_main']
+09:39:59.210 [Test worker] INFO  configuration.MyListener - After find by -->By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/fab_main']
+09:39:59.353 [Test worker] INFO  configuration.MyListener - Before find by --> By.xpath: //android.widget.ImageButton[@content-desc='Open']
+09:40:01.953 [Test worker] INFO  configuration.MyListener - After find by -->By.xpath: //android.widget.ImageButton[@content-desc='Open']
+09:40:02.105 [Test worker] INFO  configuration.MyListener - Before find by --> By.xpath: //android.widget.ImageButton[@content-desc='Open']
+09:40:03.949 [Test worker] INFO  configuration.MyListener - After find by -->By.xpath: //android.widget.ImageButton[@content-desc='Open']
+09:40:04.203 [Test worker] INFO  configuration.MyListener - Before find by --> By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/nav_fr_logout']
+09:40:07.655 [Test worker] INFO  configuration.MyListener - After find by -->By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/nav_fr_logout']

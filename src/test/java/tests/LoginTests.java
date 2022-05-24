@@ -2,6 +2,7 @@ package tests;
 
 
 import configuration.AppiumConfiguration;
+import configuration.MyDataProvider;
 import models.Auth;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
@@ -33,23 +34,24 @@ public class LoginTests extends AppiumConfiguration {
 
     }
 
-    @Test
-    public void loginSuccessHomeWork(){
-//        new SplashScreen(driver)
-//                .checkVersion("0.0.3")
+    @Test (dataProvider = "loginData",dataProviderClass = MyDataProvider.class)
+    public void loginSuccessHomeWork(Auth auth){
+
+        logger.info("From Login Test: test start with data:   "  + auth.toString());
         new LoginScreen(driver)
-                .complexLogin(Auth.builder().email("noa@gmail.com").password("Nnoa12345$").build())
+                .complexLogin(auth)
                 .checkFabButtonPresent()
                 .openMenu()
                 .logout();
 
     }
-    @Test
-    public void loginSuccessHomeWork2(){
-        logger.info("From Login Test: test start with data:");
-        
+    @Test (dataProvider = "loginDataCSV",dataProviderClass = MyDataProvider.class)
+    public void loginSuccessHomeWork2(Auth auth){
+        //Auth auth = Auth.builder().email("noa@gmail.com").password("Nnoa12345$").build();
+        logger.info("From Login Test: test start with data:   "  + auth.toString());
+
       new LoginScreen(driver).
-                complexLogin(Auth.builder().email("noa@gmail.com").password("Nnoa12345$").build())
+                complexLogin(auth)
               .checkFabButtonPresent()
               .openMenu()
               .logout();

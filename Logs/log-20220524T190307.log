@@ -1,0 +1,62 @@
+19:03:08.178 [Test worker] INFO  configuration.AppiumConfiguration - "deviceName","Nex"
+19:03:08.208 [Test worker] INFO  configuration.AppiumConfiguration - "platformName", "Android"
+19:03:46.070 [Test worker] INFO  configuration.MyListener - Before find by --> By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/log_email_input']
+19:03:47.888 [Test worker] INFO  configuration.MyListener - After find by -->By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/log_email_input']
+19:03:47.890 [Test worker] INFO  configuration.MyListener - You gave a problem --->org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MacBook-Pro-Taya.local', ip: 'fe80:0:0:0:e:e815:ae89:1872%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_151'
+Driver info: io.appium.java_client.AppiumDriver
+Capabilities {appActivity: .presentation.splashScreen...., appPackage: com.example.svetlana.scheduler, automationName: Appium, databaseEnabled: false, desired: {appActivity: .presentation.splashScreen...., appPackage: com.example.svetlana.scheduler, automationName: Appium, deviceName: Nex, platformName: android, platformVersion: 8.0}, deviceApiLevel: 26, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenDensity: 480, deviceScreenSize: 1080x1920, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 3, platform: LINUX, platformName: Android, platformVersion: 8.0.0, statBarHeight: 72, takesScreenshot: true, viewportRect: {height: 1704, left: 0, top: 72, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 6099fa07-11a0-467a-beab-f709ce561682
+*** Element info: {Using=xpath, value=//*[@resource-id='com.example.svetlana.scheduler:id/log_email_input']}
+19:03:52.718 [Test worker] INFO  configuration.MyListener - Screen with error by link --->src/test/screenshots/screen-232.png
+19:03:53.257 [Test worker] INFO  configuration.MyListener - Before find by --> By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/log_email_input']
+19:03:53.950 [Test worker] INFO  configuration.MyListener - After find by -->By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/log_email_input']
+19:03:54.509 [Test worker] INFO  configuration.MyListener - Before find by --> By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/log_email_input']
+19:03:54.859 [Test worker] INFO  configuration.MyListener - After find by -->By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/log_email_input']
+19:03:55.499 [Test worker] INFO  configuration.MyListener - Before find by --> By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/log_email_input']
+19:03:57.099 [Test worker] INFO  configuration.MyListener - After find by -->By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/log_email_input']
+19:03:57.754 [Test worker] INFO  configuration.MyListener - Before find by --> By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/log_email_input']
+19:03:58.403 [Test worker] INFO  configuration.MyListener - After find by -->By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/log_email_input']
+19:03:59.545 [Test worker] INFO  configuration.MyListener - Before find by --> By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/log_password_input']
+19:04:00.356 [Test worker] INFO  configuration.MyListener - After find by -->By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/log_password_input']
+19:04:00.808 [Test worker] INFO  configuration.MyListener - Before find by --> By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/log_password_input']
+19:04:02.008 [Test worker] INFO  configuration.MyListener - After find by -->By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/log_password_input']
+19:04:02.446 [Test worker] INFO  configuration.MyListener - Before find by --> By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/log_password_input']
+19:04:02.995 [Test worker] INFO  configuration.MyListener - After find by -->By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/log_password_input']
+19:04:06.402 [Test worker] INFO  configuration.MyListener - Before find by --> By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/login_btn']
+19:04:06.607 [Test worker] INFO  configuration.MyListener - After find by -->By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/login_btn']
+19:04:07.155 [Test worker] INFO  configuration.MyListener - Before find by --> By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/fab_main']
+19:04:08.696 [Test worker] INFO  configuration.MyListener - After find by -->By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/fab_main']
+19:04:08.697 [Test worker] INFO  configuration.MyListener - You gave a problem --->org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MacBook-Pro-Taya.local', ip: 'fe80:0:0:0:e:e815:ae89:1872%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_151'
+Driver info: io.appium.java_client.AppiumDriver
+Capabilities {appActivity: .presentation.splashScreen...., appPackage: com.example.svetlana.scheduler, automationName: Appium, databaseEnabled: false, desired: {appActivity: .presentation.splashScreen...., appPackage: com.example.svetlana.scheduler, automationName: Appium, deviceName: Nex, platformName: android, platformVersion: 8.0}, deviceApiLevel: 26, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenDensity: 480, deviceScreenSize: 1080x1920, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 3, platform: LINUX, platformName: Android, platformVersion: 8.0.0, statBarHeight: 72, takesScreenshot: true, viewportRect: {height: 1704, left: 0, top: 72, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 6099fa07-11a0-467a-beab-f709ce561682
+*** Element info: {Using=xpath, value=//*[@resource-id='com.example.svetlana.scheduler:id/fab_main']}
+19:04:13.860 [Test worker] INFO  configuration.MyListener - Screen with error by link --->src/test/screenshots/screen-253.png
+19:04:14.445 [Test worker] INFO  configuration.MyListener - Before find by --> By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/fab_main']
+19:04:16.042 [Test worker] INFO  configuration.MyListener - After find by -->By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/fab_main']
+19:04:16.447 [Test worker] INFO  configuration.MyListener - Before find by --> By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/fab_main']
+19:04:18.791 [Test worker] INFO  configuration.MyListener - After find by -->By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/fab_main']
+19:04:19.198 [Test worker] INFO  configuration.MyListener - Before find by --> By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/fab_add_event']
+19:04:21.890 [Test worker] INFO  configuration.MyListener - After find by -->By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/fab_add_event']
+19:04:25.992 [Test worker] INFO  configuration.MyListener - Before find by --> By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/row_day_number_txt']
+19:04:26.394 [Test worker] INFO  configuration.MyListener - After find by -->By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/row_day_number_txt']
+19:04:27.090 [Test worker] INFO  screens.BaseScreen - Width of last data element --->215
+19:04:27.091 [Test worker] INFO  screens.BaseScreen - Height of last data element --->218
+19:04:27.091 [Test worker] INFO  screens.BaseScreen - The 'X' of last data element --->712
+19:04:27.096 [Test worker] INFO  screens.BaseScreen - The 'Y' of last data element --->288
+19:04:27.491 [Test worker] INFO  screens.BaseScreen - The width of screen --->1080
+19:04:27.544 [Test worker] INFO  configuration.MyListener - Before find by --> By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/info_title_input']
+19:04:28.091 [Test worker] INFO  configuration.MyListener - After find by -->By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/info_title_input']
+19:04:28.452 [Test worker] INFO  configuration.MyListener - Before find by --> By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/info_title_input']
+19:04:29.350 [Test worker] INFO  configuration.MyListener - After find by -->By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/info_title_input']
+19:04:30.093 [Test worker] INFO  configuration.MyListener - Before find by --> By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/info_title_input']
+19:04:32.190 [Test worker] INFO  configuration.MyListener - After find by -->By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/info_title_input']
+19:04:33.094 [Test worker] INFO  configuration.MyListener - Before find by --> By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/info_title_input']
+19:04:34.100 [Test worker] INFO  configuration.MyListener - After find by -->By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/info_title_input']
+19:04:35.439 [Test worker] INFO  configuration.MyListener - Before find by --> By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/info_type_input']
